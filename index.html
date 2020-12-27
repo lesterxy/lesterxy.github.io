@@ -11,6 +11,26 @@
    		 padding: 10px;
    		 background-color: rgba(45, 45, 45, 0.1)		 
 	}		
+		
+	.frame {
+	    width: 315px;
+	    height: 165px;
+	    margin: 20px;
+	    position: relative;
+	}		
+
+	.fade {
+	    height: 100%;
+	    width: 100%;
+	    position:absolute;
+	    background: -webkit-linear-gradient(left, 
+			rgba(0,0,0,0.65) 0%, 
+			rgba(0,0,0,0) 20%,
+			rgba(0,0,0,0) 80%,
+			rgba(0,0,0,0.65) 100%
+	    );
+	}
+		
 	</style> 
 	
 <head>
@@ -29,11 +49,14 @@
 <body style="background-color: honeydew;">
         
     <header class="contact"> 
-            <nav>
-            phone : +639959581820 | e-mail : lestersantos0153@yahoo.com |
-            <a href = "https://www.linkedin.com/in/ls1993" target="_blank"> linkedin </a> <br>
+	<nav>
+        	    phone : +639959581820 | e-mail : lestersantos0153@yahoo.com |
+        	    <a href = "https://www.linkedin.com/in/ls1993" target="_blank"> linkedin </a> <br>
+	<div class="frame">
+ 		<div class="fade"></div>
 		<img src = "https://raw.githubusercontent.com/lesterxy/lesterxy.github.io/2cba83e18a1ec7742d8c7dd712d081f6e1724bb1/cover.jpg" width="200" alt="Hike!"> 
-            </nav>
+	</div>
+	</nav>
     </header>
 
     <main> 
